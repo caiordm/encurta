@@ -1,17 +1,16 @@
 # Encurtador de Links
-Backend de um Simples Encurtador de URLs, onde o usuário:
+Um Simples Encurtador de URLs, onde o usuário:
 
 - Coloca uma URL
-- Essa URL Original é armazenada no banco (ex: "http://medium.com")
 - É feito um hash de 8 dígitos em cima dessa URL original
 - Quando feito uma requisição pra o "/{hash_criada}" o software redireciona o cliente para a URL original daquela hash
+- Nesse projeto também foi usado um serviço de monitoramento externo pra enviar requisições regularmente a aplicação, pois o Render suspende-a após algum tempo de inatividade.
 
 ### 🛠 Tecnologias
 
-- [Ruby](https://www.rubylang.com)
+- [Ruby](https://www.ruby-lang.org/)
 - [RubyOnRails](https://rubyonrails.org)
-- [MySQL](https://www.mysql.com)
-
+- [PostgreSQL](https://www.postgresql.org/)
 
 
 Feito por Caio Rodrigues 👋🏽 Entre em contato!
